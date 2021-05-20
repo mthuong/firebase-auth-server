@@ -16,6 +16,7 @@ const https = require('https');
 var fs = require('fs');
 var {google} = require('googleapis');
 
+// TODO: Update PROJECT_ID and key, see 👆👆
 var PROJECT_ID = '[PROJECT_ID]';
 var key = require('./firebase-adminsdk.json');
 
