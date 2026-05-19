@@ -1,0 +1,15 @@
+{
+  "name": "firebase-auth-server",
+  "version": "1.0.0",
+  "description": "Get an OAuth2 access token for the Firebase Cloud Messaging HTTP v1 API.",
+  "main": "firebase-auth-server.js",
+  "scripts": {
+    "start": "node firebase-auth-server.js"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@9.15.9",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "googleapis": "^144.0.0"
+  }
+}
